@@ -26,7 +26,7 @@ class Home extends StatelessWidget {
           decoration: const BoxDecoration(
             image: DecorationImage(
               image: NetworkImage(
-                  'https://images.unsplash.com/photo-1637750586228-179a1a7aef84?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'),
+                  'https://images.unsplash.com/photo-1518112166137-85f9979a43aa?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'),
               fit: BoxFit.cover,
             ),
           ),
@@ -108,7 +108,7 @@ class Home extends StatelessWidget {
                 splashColor: Colors.white.withOpacity(0.3),
                 onTap: () => {},
                 child: const Text(
-                  'Transparent',
+                  'Opacity',
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
@@ -121,7 +121,7 @@ class Home extends StatelessWidget {
                 color: Colors.white.withOpacity(0.3),
                 height: 120,
                 width: double.infinity,
-                blurEffect: 20,
+                blurEffect: 10,
                 onTap: () {},
                 padding: const EdgeInsets.all(20),
                 borderRadius: BorderRadius.circular(10),
@@ -151,7 +151,7 @@ class Home extends StatelessWidget {
                 borderRadius: BorderRadius.circular(10),
                 splashColor: Colors.white.withOpacity(0.2),
                 child: const Text(
-                  'Blurred gradient',
+                  'Blurred with gradient',
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
@@ -179,7 +179,7 @@ class Home extends StatelessWidget {
                   width: 1,
                 ),
                 child: const Text(
-                  'Blurred gradient bordered',
+                  'Blurred with gradient and border',
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
@@ -229,7 +229,7 @@ class Home extends StatelessWidget {
                   width: 1,
                 ),
                 child: const Text(
-                  'Background image',
+                  'Background image with gradient',
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
@@ -261,7 +261,7 @@ class Home extends StatelessWidget {
                   width: 1,
                 ),
                 child: const Text(
-                  'Background image',
+                  'Background image with gradient and blur ',
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
