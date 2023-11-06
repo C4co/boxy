@@ -2,6 +2,14 @@
 
 > A simple way to create boxes on flutter
 
+**Install:**
+```yml
+dependencies:
+  hty:
+    git:
+      url: https://github.com/C4co/hty.git
+```
+
 ## Features
 
 - Solid color
