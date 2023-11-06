@@ -5,9 +5,9 @@
 **Install:**
 ```yml
 dependencies:
-  hty:
+  boxy:
     git:
-      url: https://github.com/C4co/hty.git
+      url: https://github.com/C4co/boxy.git
 ```
 
 ## Features
