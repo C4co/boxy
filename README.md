@@ -1,6 +1,6 @@
 # Boxy
 
-![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+![Static Badge](https://img.shields.io/badge/Flutter_package-blue)
 
 > A simple way to create boxes on flutter
 
