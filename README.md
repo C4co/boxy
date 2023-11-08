@@ -1,6 +1,7 @@
 # Boxy
 
 ![Static Badge](https://img.shields.io/badge/Flutter_package-blue)
+[![Boxy](https://github.com/C4co/boxy/actions/workflows/dart.yml/badge.svg)](https://github.com/C4co/boxy/actions/workflows/dart.yml)
 
 > A simple way to create boxes on flutter
 
