@@ -53,6 +53,7 @@ class Boxy extends StatelessWidget {
 
     return Container(
       clipBehavior: Clip.hardEdge,
+      key: const Key('boxy_container'),
       margin: margin,
       decoration: BoxDecoration(
         borderRadius: borderRadius,
@@ -60,23 +61,28 @@ class Boxy extends StatelessWidget {
         boxShadow: boxShadow,
       ),
       child: Container(
+        key: const Key('boxy_subcontainer'),
         decoration: BoxDecoration(
           gradient: gradient,
         ),
         child: BackdropFilter(
+          key: const Key('boxy_backdrop_filter'),
           filter: ImageFilter.blur(
             sigmaX: blurEffect ?? 0,
             sigmaY: blurEffect ?? 0,
           ),
           child: Material(
+            key: const Key('boxy_material'),
             color: color ?? Colors.transparent,
             child: InkWell(
+              key: const Key('boxy_inkwell'),
               splashColor: splashColor,
               splashFactory: InkRipple.splashFactory,
               onTap: onTap,
               onDoubleTap: onDoubleTap,
               onLongPress: onLongPress,
               child: Container(
+                key: const Key('boxy_content'),
                 decoration: BoxDecoration(
                   borderRadius: borderRadius,
                   border: border,
