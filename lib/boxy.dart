@@ -2,22 +2,54 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
+/// A simple container with a blur effect.
 class Boxy extends StatelessWidget {
+  ///[borderRadius] is the radius of the border.
   final BorderRadius? borderRadius;
+
+  ///[width] is the width of the container.
   final double? width;
+
+  ///[height] is the height of the container.
   final double? height;
+
+  ///[border] is the border of the container.
   final Border? border;
+
+  ///[padding] is the padding of the container.
   final EdgeInsets? padding;
+
+  ///[margin] is the margin of the container.
   final EdgeInsets? margin;
+
+  ///[child] is the child of the container.
   final Widget? child;
+
+  ///[blurEffect] is the blur effect of the container.
   final double? blurEffect;
+
+  ///[color] is the color of the container.
   final Color? color;
+
+  ///[splashColor] is the splash color of the container.
   final Color? splashColor;
+
+  ///[gradient] is the gradient of the container.
   final Gradient? gradient;
+
+  ///[backgroundImage] is the background image of the container.
   final ImageProvider? backgroundImage;
+
+  ///[onTap] is the onTap function of the container.
   final void Function()? onTap;
+
+  ///[onDoubleTap] is the onDoubleTap function of the container.
   final void Function()? onDoubleTap;
+
+  ///[onLongPress] is the onLongPress function of the container.
   final void Function()? onLongPress;
+
+  ///[boxShadow] is the boxShadow of the container.
   final List<BoxShadow>? boxShadow;
 
   const Boxy({
